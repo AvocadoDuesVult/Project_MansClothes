@@ -160,5 +160,10 @@
     body > div > div {
         grid-gap: none;
     }
+
+main > div.box_photo.pt-3 > div.photo_1 {
+    display: flex;
+    align-items: flex-end;
+}
     
 
