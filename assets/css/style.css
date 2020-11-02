@@ -152,5 +152,13 @@
         border-right:solid 1px gray ;
         text-align: center;
     }
+
+    .bottom {
+        position:relative;
+    }
+
+    body > div > div {
+        grid-gap: none;
+    }
     
 
