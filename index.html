@@ -3,19 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/assets/css/bootstrap.css">
-    <link rel="stylesheet" href="/assets/css/style.css">
-    <title>MansClothes</title>
+    <title>Hello Bootstrap Grid</title>
+    <link rel="stylesheet" href="./assets/css/bootstrap.css">
+    <link rel="stylesheet" href="./assets/css/main.css">
 </head>
 <body>
-    <div class="container">
+      <div class="container">
+    <div class='gridbox min-vh-100'>
+        <header class='gridbox-header p-2'>
 
+            
         <header>
+
 
             <div class="header" style="grid-area: header;">
             <span class="ml-3">Men's<span class="text-secondary">Clothes</span></span>
             </div>
-            
 
             <nav class="nav">
                 <a class="nav-link gray_black" href="#">Home</a>
@@ -25,10 +28,14 @@
                 <a class="nav-link gray_black" href="#">Checkout</a>
               </nav>
 
+            
         </header>
-        <hr>
-        <main>
 
+        <hr>
+
+        <main class='gridbox-main p-2'>
+
+            
             <div class="container">
                 <div class="header_main">
 
@@ -41,6 +48,8 @@
                         <a class="nav-link gray" href="#">Shorts</a>
                         <a class="nav-link gray" href="#">Pants</a>
                     </nav>
+
+                </div>
                     
                     <div class="photo_main">
 
@@ -65,7 +74,7 @@
 
                     </div>
 
-                </div>
+            </div>
 
               <div class="main_main mx-auto gridbox">
 
@@ -223,47 +232,49 @@
 
 
                 </div>
-            </div>
 
         </main>
+
         <hr>
-        <footer class="gridbox">
 
-          <div>
-            <h5>FREE SHIPING</h5>
-            <p class="p-2">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-          </div>
+        <footer class='gridbox-footer  p-2'>
 
+            <div class="gridbox">
+              <div>
+                <h5>FREE SHIPING</h5>
+                <p class="p-2">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+              </div>
+    
+    
+              <div>
+               <h5> CALL US: (800) 2345-6789 </h5>
+               <p>HOURSE: 9AM-7PM PST M-FRI</p>
+              </div>
 
-          <div>
-           <h5> CALL US: (800) 2345-6789 </h5>
-           <p>HOURSE: 9AM-7PM PST M-FRI</p>
-          </div>
+            </div>
+            
+            <hr>
+    
+              <div class="grid_footer">
+               
+              <div>
+                <h4>Information</h4>
+              </div>
 
+              <div>
+                <h4>Costumer Service</h4>
+              </div>
 
-          <div>
-          </div>
+              <div>
+                <h4>Extras</h4>
+              </div>
 
-
-          <div class="grid_footer">
-           
-          <div>
-            <h4>Information</h4>
-          </div>
-          <div>
-            <h4>Costumer Service</h4>
-          </div>
-          <div>
-            <h4>Extras</h4>
-          </div>
-          <div>
-            <h4>My Account</h4>
-          </div>
-
-          </div>
+              <div>
+                <h4>My Account</h4>
+              </div>
+    
+              </div>
 
         </footer>
-
-    </div>
 </body>
 </html>
